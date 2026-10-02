@@ -1,0 +1,59 @@
+========================================================================================
+EMBEDDINGS PREVIEW - first 5 stored vectors, first 10 dimensions each
+========================================================================================
+collection  : mf_faq
+model       : sentence-transformers/all-MiniLM-L6-v2
+dimensions  : 384 total, showing first 10
+vectors     : 5 shown of 170 stored
+read back   : {'hnsw:space': 'cosine'}
+
+----------------------------------------------------------------------------------------
+VECTOR 1/5   id=hdfc-large-cap-fund-direct-growth::sec-001
+  scheme   : HDFC Large Cap Fund - Direct Growth
+  category : fees
+  section  : Overview
+  position : 0
+  dim[0:10]  : [0.085835, -0.074549, -0.098942, 0.044733, 0.087112, 0.017492, 0.036642, 0.091421, -0.054909, 0.047193]
+  text     : HDFC Large Cap Fund - Direct Growth | direct_growth | Overview
+Min. for SIP: ₹100
+Fund size (AUM): ₹39,933.36 Cr
+Expense ratio: 1.04%
+Rating: 4
+----------------------------------------------------------------------------------------
+VECTOR 2/5   id=hdfc-large-cap-fund-direct-growth::sec-002
+  scheme   : HDFC Large Cap Fund - Direct Growth
+  category : sip
+  section  : Minimum investments
+  position : 1
+  dim[0:10]  : [0.084473, -0.063956, -0.065822, 0.018873, 0.064456, 0.035939, 0.009066, 0.112780, -0.062266, 0.048550]
+  text     : HDFC Large Cap Fund - Direct Growth | direct_growth | Minimum investments
+Min. for 1st investment: ₹100
+Min. for 2nd investment: ₹100
+----------------------------------------------------------------------------------------
+VECTOR 3/5   id=hdfc-large-cap-fund-direct-growth::sec-003
+  scheme   : HDFC Large Cap Fund - Direct Growth
+  category : fees
+  section  : Minimum investments > Understand terms > Expense ratio
+  position : 2
+  dim[0:10]  : [0.080959, -0.073520, -0.061777, 0.023108, 0.136787, 0.012891, 0.033118, 0.058966, -0.022768, 0.039789]
+  text     : HDFC Large Cap Fund - Direct Growth | direct_growth | Minimum investments > Understand terms > Expense ratio
+A fee payable to a mutual fund house for managing y
+----------------------------------------------------------------------------------------
+VECTOR 4/5   id=hdfc-large-cap-fund-direct-growth::sec-004
+  scheme   : HDFC Large Cap Fund - Direct Growth
+  category : tax_statement
+  section  : Understand terms > Expense ratio > Tax
+  position : 3
+  dim[0:10]  : [0.065463, -0.080166, -0.021706, 0.018086, 0.147070, 0.060946, 0.025072, 0.066944, -0.035699, 0.043951]
+  text     : HDFC Large Cap Fund - Direct Growth | direct_growth | Understand terms > Expense ratio > Tax
+A percentage of your capital gains payable to the government upon e
+----------------------------------------------------------------------------------------
+VECTOR 5/5   id=hdfc-large-cap-fund-direct-growth::sec-005
+  scheme   : HDFC Large Cap Fund - Direct Growth
+  category : exit_load
+  section  : Expense ratio > Tax > Exit load
+  position : 4
+  dim[0:10]  : [0.080088, -0.056641, -0.029046, 0.039714, 0.143111, 0.025827, 0.017934, 0.028499, -0.046250, 0.052839]
+  text     : HDFC Large Cap Fund - Direct Growth | direct_growth | Expense ratio > Tax > Exit load
+A fee payable to a mutual fund house for exiting a fund (fully or partiall
+----------------------------------------------------------------------------------------
